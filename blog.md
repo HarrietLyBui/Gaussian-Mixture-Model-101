@@ -77,11 +77,9 @@
 <ul>
 	<li style="font-weight: 400;"><span style="font-weight: 400;">Clusters are overlapped in the feature space. Kmeans will not be able to tell one group from the other because it only assigns each data point to exactly one cluster. </span></li>
 	<li style="font-weight: 400;"><span style="font-weight: 400;">Clusters are defined by non-circular shape. Kmeans only uses Euclidean distance.</span></li>
-	<li style="font-weight: 400;"></li>
 </ul>
 <h2><b>References </b></h2>
 <span style="font-weight: 400;">[1] Ihler, Alexander. “Machine Learning and Data Mining, Clustering.” </span>
 
 <span style="font-weight: 400;">[2] </span><span style="font-weight: 400;">Raval Siraj. </span><span style="font-weight: 400;">“Gaussian Mixture Model” </span><a href="https://github.com/llSourcell/Gaussian_Mixture_Models/blob/master/intro_to_gmm_%26_em.ipynb"><span style="font-weight: 400;">https://github.com/llSourcell/Gaussian_Mixture_Models/blob/master/intro_to_gmm_%26_em.ipynb</span></a>
-
 <span style="font-weight: 400;">[3] “Maximum Likelihood Estimation”. Wikipedia. </span><a href="https://en.wikipedia.org/wiki/Maximum_likelihood_estimation"><span style="font-weight: 400;">https://en.wikipedia.org/wiki/Maximum_likelihood_estimation</span></a>
