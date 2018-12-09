@@ -82,4 +82,5 @@
 <span style="font-weight: 400;">[1] Ihler, Alexander. “Machine Learning and Data Mining, Clustering.” </span>
 
 <span style="font-weight: 400;">[2] </span><span style="font-weight: 400;">Raval Siraj. </span><span style="font-weight: 400;">“Gaussian Mixture Model” </span><a href="https://github.com/llSourcell/Gaussian_Mixture_Models/blob/master/intro_to_gmm_%26_em.ipynb"><span style="font-weight: 400;">https://github.com/llSourcell/Gaussian_Mixture_Models/blob/master/intro_to_gmm_%26_em.ipynb</span></a>
-<span style="font-weight: 400;">[3] “Maximum Likelihood Estimation”. Wikipedia. </span><a href="https://en.wikipedia.org/wiki/Maximum_likelihood_estimation"><span style="font-weight: 400;">https://en.wikipedia.org/wiki/Maximum_likelihood_estimation</span></a>
+<span style="font-weight: 400;">
+	<br>[3] “Maximum Likelihood Estimation”. Wikipedia. </span><a href="https://en.wikipedia.org/wiki/Maximum_likelihood_estimation"><span style="font-weight: 400;">https://en.wikipedia.org/wiki/Maximum_likelihood_estimation</span></a>
