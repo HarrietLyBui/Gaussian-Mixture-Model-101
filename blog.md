@@ -1,4 +1,5 @@
- 
+<center> <h1> GAUSSIAN MIXTURE MODEL 101 </h1>  </center>
+
 <h2><b>Define a problem</b></h2>
 <strong>Problem:</strong>
 
@@ -29,11 +30,11 @@
 </ul>
 <span style="font-weight: 400;">An example of a distribution: We have a game and we would like to keep track of players’ score. Below is an example of one player’s score. She cores 1 four times, 2 9 times, etc. The largest number in the frequency column is 9, which is the peak.</span>
 
-<img class=" size-full wp-image-119 aligncenter" src="https://inlovewithanaspie.files.wordpress.com/2018/12/frequency-distribution-table.gif" alt="frequency distribution table" width="600" height="710" />
+<center> <img class=" size-full wp-image-119 aligncenter" src="https://inlovewithanaspie.files.wordpress.com/2018/12/frequency-distribution-table.gif" alt="frequency distribution table" width="600" height="710" /> </center>
 
 <span style="font-weight: 400;">If we plot our frequency table out in a graph, we will see a bell curve approximately.</span>
 
-<img class=" size-full wp-image-120 aligncenter" src="https://inlovewithanaspie.files.wordpress.com/2018/12/bell.png" alt="bell" width="450" height="327" />
+<center> <img class=" size-full wp-image-120 aligncenter" src="https://inlovewithanaspie.files.wordpress.com/2018/12/bell.png" alt="bell" width="450" height="327" /> </center>
 
 <span style="font-weight: 400;">This bell curve is  a Gaussian distribution! So a Gaussian distribution is a distribution where half of the data points fall to the left of the graph and half of the data points fall to the right of the graph. It is an even distribution. A Gaussian distribution is also called a normal distribution. </span>
 
@@ -48,17 +49,17 @@
 
 <span style="font-weight: 400;">Now recall a distribution is a list of outcome and probabilities associated with those outcomes. For the problem we define at the beginning, the list of outcome is the single data point we have for each player - the money the user spends in the game this month (x) We will use mean and standard deviation from our data to calculate these probabilities. A formal name of this formula is probability density function (y).</span>
 
-<img class=" size-full wp-image-124 aligncenter" src="https://inlovewithanaspie.files.wordpress.com/2018/12/simple-gaussian.jpg" alt="simple gaussian" width="768" height="575" />
+<img class=" size-full wp-image-124 aligncenter" src="https://inlovewithanaspie.files.wordpress.com/2018/12/simple-gaussian.jpg" alt="simple gaussian" width="450"  />
 
 <span style="font-weight: 400;">When we plot out x and y, we have the bell curve graph with y is represented on the vertical axis and x is represented on the horizontal axis. Different means and standard deviation produce different bell curves with different colors below:</span>
 <h2><b>What is a Multivariate Gaussian?</b></h2>
-<img class=" size-full wp-image-123 aligncenter" src="https://inlovewithanaspie.files.wordpress.com/2018/12/multivariate-guassian.png" alt="multivariate guassian" width="1792" height="1218" />
+<img class=" size-full wp-image-123 aligncenter" src="https://inlovewithanaspie.files.wordpress.com/2018/12/multivariate-guassian.png" alt="multivariate guassian" width="100%" />
 
 <span style="font-weight: 400;">Above is the equation to computer one Gaussian distribution in case of a dataset with multiple dimensions. Note that this is not the distribution of all the sub Gaussian distributions in our dataset. We create a vector x out of all data points with d dimensions (d features) in the dataset. The T next to the x vector parenthesis denotes a vector transpose. Our output of this equation will be a vector of probability density. Different from Gaussian distribution, Multivariate Gaussian does not use standard deviation but the covariance matrix. When we the dataset is high dimensional, covariance matrix gives us a more accurate result of the probability.</span>
 <h2><b>Gaussian Mixture Model (GMM)</b></h2>
 <span style="font-weight: 400;">Now as we understand what a Gaussian distribution is we can talk about a Gaussian Mixture Model. When the dataset has multiple distributions, meaning it has multiple peaks and we want to represent all of these distributions in one model, we can use the Gaussian Mixture Model. Therefore, it is basically a probability distribution that consists of multiple probability distributions, which are multiple Gaussians.</span>
 
-<img class="alignnone size-full wp-image-121 aligncenter" src="https://inlovewithanaspie.files.wordpress.com/2018/12/gmm.png" alt="GMM" width="1742" height="1168" />
+<img class="alignnone size-full wp-image-121 aligncenter" src="https://inlovewithanaspie.files.wordpress.com/2018/12/gmm.png" alt="GMM" width="100%"  />
 
 <span style="font-weight: 400;">K is the number of distributions in the dataset (the number of peaks). In the case where d=1 above we see three peaks => K = 3. In order to compute the overall distribution: </span>
 <ul>
